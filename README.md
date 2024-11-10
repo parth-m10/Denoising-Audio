@@ -57,6 +57,8 @@ The dataset was uploaded to Google Drive for easy access from Colab. The model t
 ## Training Results
 
 The U-Net model took about **3 hours** to train for **60 epochs** on a dataset of **21,000 training samples** and **1,179 validation samples** using the GPU.
+![WhatsApp Image 2024-11-10 at 22 44 14_37df5194](https://github.com/user-attachments/assets/7941f4e6-a979-4862-a0ed-017ba5c48b24)
+
 
 ## Usage
 
