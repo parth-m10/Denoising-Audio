@@ -1,7 +1,7 @@
 Audio Denoising Using Deep CNN and U-Net Architecture
 This repository contains an implementation of an audio denoising system using a deep Convolutional Neural Network (CNN) and U-Net architecture. The system is designed to clean noisy audio signals by extracting the clean speech from noisy environments. The model is trained on a dataset of clean audio and noisy audio augmented with environmental sounds, such as wind, sirens, dog barks, and more. The denoising process is accomplished by using a deep autoencoder built on a U-Net architecture.
 
-Overview
+**Overview**
 The goal of this project is to suppress background noise in audio signals while preserving the clean speech. The proposed approach leverages deep CNNs for their ability to capture complex features in noisy signals. The U-Net architecture is utilized, which is well-known for its success in image segmentation tasks and is adapted here for audio denoising.
 
 Final Dataset Specifications
