@@ -16,6 +16,10 @@ The goal of this project is to suppress background noise in audio signals while 
 
 The U-Net architecture consists of two main parts: the **Encoder** and the **Decoder**. The Encoder compresses the input data, while the Decoder reconstructs it. The architecture consists of a series of convolutional layers, activation functions, pooling operations, and up-sampling operations to achieve the desired result.
 
+
+![image](https://github.com/user-attachments/assets/d04fd4ce-68cc-42fc-a33d-936e4d154dcd)
+
+
 #### Decoder Network Architecture
 
 - **Input**: `128x128x1`
@@ -57,6 +61,8 @@ The dataset was uploaded to Google Drive for easy access from Colab. The model t
 ## Training Results
 
 The U-Net model took about **3 hours** to train for **60 epochs** on a dataset of **21,000 training samples** and **1,179 validation samples** using the GPU.
+
+
 ![WhatsApp Image 2024-11-10 at 22 44 14_37df5194](https://github.com/user-attachments/assets/7941f4e6-a979-4862-a0ed-017ba5c48b24)
 
 
